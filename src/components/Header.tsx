@@ -81,6 +81,8 @@ function Header(props: HeaderProps): JSX.Element {
           </Button>
         </div>
 
+        <div className='instructions'>Если фильтр не выбран, он не применяется. Баркод и наименование - поиск ведётся по любому совпадению символов</div>
+
         <div className="filters flex-class">
           <div className="filter filter--barcode">
             <p className="filter__label">Баркод</p>
