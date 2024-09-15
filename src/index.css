@@ -12,15 +12,10 @@ code {
     monospace;
 }
 
-:where(.css-dev-only-do-not-override-qnu6hi).ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector{
-  border: none;
+.ant-select-selector{
+  border: 1px solid red;
 }
 
-.ant-select-focused:where(.css-dev-only-do-not-override-qnu6hi).ant-select-outlined:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer) .ant-select-selector {
-  border-color: white;
-  box-shadow: 0 0 0 0;
-}
-
-:where(.css-dev-only-do-not-override-qnu6hi).ant-space-compact {
+.ant-space-compact{
   width: 100%;
 }
