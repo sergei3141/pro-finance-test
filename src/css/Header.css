@@ -102,6 +102,11 @@
   display: block;
 }
 
+.filter--manufacturer-input {
+  height: 31px;
+  width: 100%;
+}
+
 .filter--price {
   width: 20%;
 }

@@ -106,7 +106,8 @@ function Header(props: HeaderProps): JSX.Element {
               <Select 
                 defaultValue="Выбрать все" 
                 options={uniqueBrands} 
-                style={{height:31}} 
+                className='filter--manufacturer-input'
+                style={{height:31, width:'100%'}}
                 onChange={(e)=>{setProduct({ ...product, product_brand: e})}}/>
             </Space.Compact>
           </div>
