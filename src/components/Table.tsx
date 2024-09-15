@@ -6,8 +6,6 @@ import {MainTableProps, DataType, InputData} from '../interfaces/interfaces'
 
 import dataProduct from '../DATA.json'
 
-
-
 const MainTable: React.FC<MainTableProps> = ({ data, onFormTable }) => {
 
   const [filteredData, setFilteredData] = useState(dataProduct)
@@ -103,6 +101,7 @@ const MainTable: React.FC<MainTableProps> = ({ data, onFormTable }) => {
     {
     title: 'Наименование',
     dataIndex: 'product_name',
+    key: 'product_name',
     sorter: (a, b) => a.product_name.localeCompare(b.product_name),
     render: (valueFromInput, record) => {
       const dataIndex: string = 'product_name'
@@ -112,6 +111,7 @@ const MainTable: React.FC<MainTableProps> = ({ data, onFormTable }) => {
     {
     title: 'Производитель',
     dataIndex: 'product_brand',
+    key: 'product_brand',
     sorter: (a, b) => a.product_name.localeCompare(b.product_name),
     render: (valueFromInput, record) => {
       const dataIndex: string = 'product_brand'
@@ -121,6 +121,7 @@ const MainTable: React.FC<MainTableProps> = ({ data, onFormTable }) => {
     {
     title: 'Кол-во',
     dataIndex: 'product_quantity',
+    key: 'product_quantity',
     sorter: (a, b) => a.product_quantity - b.product_quantity,
     render: (valueFromInput, record) => {
       const dataIndex: string = 'product_quantity'
@@ -130,6 +131,7 @@ const MainTable: React.FC<MainTableProps> = ({ data, onFormTable }) => {
     {
     title: 'Цена',
     dataIndex: 'price',
+    key: 'price',
     sorter: (a, b) => a.price - b.price,
     render: (valueFromInput, record) => {
       const dataIndex: string = 'price'
