@@ -1,0 +1,157 @@
+.leftbar {
+    margin: 20px;
+  }
+  
+  .leftbar__card {
+    width: 300px;
+    background-color: rgb(23, 29, 44);
+    border-radius: 10px;
+    position: relative;
+    padding-top: 1px;
+    margin-bottom: 3px;
+  }
+  
+  .leftbar__card-header {
+    margin: 25px 20px 10px;
+    position: relative;
+    justify-content: space-between;
+    font-size: 18px;
+    display: flex;
+  }
+  
+  .leftbar__menu {
+    width: 300px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgb(23, 29, 44);
+  }
+  
+  .leftbar__support-info {
+    width: 50%;
+  }
+  
+  .leftbar__support-info-wrapper {
+    display: flex;
+  }
+  
+  .leftbar__contact-button {
+    width: 300px;
+    height: 55px;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .leftbar__logo {
+    background-color: rgb(40, 126, 255);
+    border-radius: 4px;
+    padding: 0px 4px;
+    margin-right: 6px;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  .leftbar__logo-wrapper {
+    display: flex;
+  }
+  
+  .leftbar__card-title {
+    margin: 25px 20px 10px;
+    position: relative;
+    justify-content: space-between;
+    font-size: 18px;
+  }
+  
+  .leftbar__card-title ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .leftbar__card-title ul li:first-child {
+    padding-top: 20px;
+  }
+  
+  .leftbar__card-title ul:last-child {
+    padding-bottom: 30px;
+  }
+  
+  .leftbar__card-text {
+    color: white;
+    font-size: 13px;
+    margin-top: 8px;
+  }
+  
+  .leftbar__card-shadow-text {
+    margin-top: 15px;
+    font-size: 12px;
+    color: rgb(76, 82, 100);
+  }
+  
+  .leftbar__title {
+    color: white;
+  }
+  
+  .leftbar__card-button {
+    background-color: rgb(40, 48, 71);
+    border: 0;
+    color: rgb(76, 82, 100);
+    height: 20px;
+    width: 70px;
+    font-size: 12px;
+  }
+  
+  .title-option {
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(40, 126, 255);
+    background-color: rgb(238, 245, 255);
+    font-size: 14px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+  }
+  
+  .title-option-secondary {
+    color: bisque;
+  }
+  
+  .flex-class {
+    display: flex;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  h1 {
+    font-weight: 400;
+  }
+  
+  input {
+    border: 0px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .leftbar__card, .leftbar__menu,   .leftbar__contact-button {
+      width: 100%;
+    }
+
+    .leftbar__support-info-wrapper {
+      display: block;
+    }
+
+    .leftbar__support-info{
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .leftbar__card-title {
+      text-align: center;
+    }
+  }
